@@ -2,7 +2,6 @@
 
     dependencies_dir="dependencies"  
 
-    mkdir $output_dir;
     mkdir $dependencies_dir; 
     git clone https://github.com/aboul3la/Sublist3r.git $dependencies_dir/sublister; 
     git clone https://github.com/wpscanteam/wpscan.git $dependencies_dir/wpscan; 
